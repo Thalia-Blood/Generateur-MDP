@@ -4,7 +4,7 @@ const passwordOutput = document.getElementById('password-output');
 const copyStatus = document.getElementById('copy-status');
 
 generateBtn.addEventListener('click', async () => {
-  const url = 'https://api.motdepasse.xyz/create/?include_lowercase&include_uppercase&include_digits&exclude_similar_characters&add_custom_characters=!?&password_length=12&quantity=1';
+  const url = 'https://api.motdepasse.xyz/create/?include_lowercase&include_uppercase&include_digits&exclude_similar_characters&add_custom_characters=!?&password_length=14&quantity=1';
 
   try {
     const response = await fetch(url);
